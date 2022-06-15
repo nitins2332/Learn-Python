@@ -589,13 +589,172 @@ this is a third line of comment
 # from pyexpat import model
 
 
-thisdict = {
-    "brand": "Ford",
-    "electric": False,
-    "year": 1954,
-    "colors": ["red", "white", "blue"]
-}
+# thisdict = {
+#     "brand": "Ford",
+#     "electric": False,
+#     "year": 1954,
+#     "colors": ["red", "white", "blue"]
+# }
 
-x = thisdict.keys()
+# x = thisdict.keys()
 
-print(x)
+# print(x)
+
+# car = { 
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# x = car.values()
+
+# print(x)
+
+# car["color"] = "white"
+
+# print(x)
+
+
+# car = { 
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+
+# x = car.items()
+# print(x)
+# car["color"] = "red"
+# print(x)
+
+# if "model" in car:
+#     print("yes, this is avalable in car decs")
+
+# car["year"] = "2008"
+# car.update({"year": "2020"})
+
+# car["color"] = "red"
+# x = car.items()
+
+# print(car)
+# car.update({"color" : "red"})
+
+# print(car)
+# print(x)
+
+# car = { 
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+
+# x = car.pop("model")
+# car.popitem()
+# del car["year"]
+
+# car.clear()
+
+# for x, y in car.items():
+#     print(x, y)
+
+# print(car)
+
+# car = { 
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+
+# newcar = car.copy()
+# print(car)
+
+# newcar = dict(car)
+
+
+# newcar.update({"color": "red"})
+# print(newcar)
+
+
+# myfamily = {
+#     "child1" : {
+#         "name": "Atul",
+#         "year": 2006
+#     },
+#     "child2" : {
+#         "name": "Nitins",
+#         "year": 1998
+#     },
+#     "child3" : {
+#         "name": "Shival",
+#         "year": 1996
+#     }
+# }
+
+# child1 = {
+#   "name" : "Emil",
+#   "year" : 2004
+# }
+# child2 = {
+#   "name" : "Tobias",
+#   "year" : 2007
+# }
+# child3 = {
+#   "name" : "Linus",
+#   "year" : 2011
+# }
+
+# myfamily02 = {
+#     "child1" : child1,
+#     "child2" : child2,
+#     "child3" : child3
+# }
+
+# print(myfamily)
+# print(myfamily02)
+
+# if 5 > 2: print("Yes") else: print("No")
+# print("Yes") if 5 > 2 else print("No")
+
+# i = 1
+# while i < 6:
+#   print(i)
+#   if i == 4:
+#    break
+#   i += 1
+
+# def my_function():
+#     print("Hello welcome to learn function with python")
+
+# my_function()
+
+# def func(fName, mName, lName):
+#     print(fName + mName + lName + " Refsnes")
+
+# func("Nitin", "Kumar", "sutrakar")
+
+
+# def func(*kids):
+#     print("The youngest child is " + kids[1])
+
+# func("Email", "Tobias", "Linus")
+
+# def func(child1, child2, child3):
+#     print("the youngest child is " + child3)
+
+# func(child1="Email", child2="Tobies", child3="Linus")
+
+# def func(**kid):
+#     print("his last name is " + kid["lname"])
+
+# func(fname ="Tobies", lname = "rohan")
+
+# def func(country = "India"):
+#     print("I am from " + country)
+
+# func("Sweden")
+# func("Brazil")
+
+def func(food):
+    for x in food:
+        print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+func(fruits)
