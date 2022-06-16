@@ -751,10 +751,95 @@ this is a third line of comment
 # func("Sweden")
 # func("Brazil")
 
-def func(food):
-    for x in food:
-        print(x)
+# def func(food):
+#     for x in food:
+#         print(x)
 
-fruits = ["apple", "banana", "cherry"]
+# fruits = ["apple", "banana", "cherry"]
 
-func(fruits)
+# func(fruits)
+
+# def func(x):
+#     return 5 * x
+
+# print(func(5))
+
+# def func():
+#     pass
+
+# from unittest import result
+
+
+# def func(k):
+#     if(k > 0):
+#         result = k + func(k - 1)
+#         print(result)
+#     else:
+#         result = 0
+#     return result
+
+# print("/n/nRecursion Example Results")
+# func(6)
+
+# x = lambda a : a + 10
+# print(x(5))
+
+# x = lambda a, b : a * b
+# print(x(3,4))
+
+# x = lambda a,b,c : a+b+c
+# print(x(1,2,3))
+
+# def func(n):
+#     return lambda a : a * n
+
+# mydoubler = func(2)
+
+# print(mydoubler(11))
+
+# def func(n):
+#     return lambda a : a * n
+
+# doubler2 = func(2)
+# tripler3 = func(3)
+
+# print(doubler2(11))
+# print(tripler3(3))
+
+# class MyClass:
+#     x = 5
+
+# p1 = MyClass()
+# print(p1.x)
+
+# from unicodedata import name
+
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def func(self):
+#         print("Hello My name is " + self.name)
+
+
+# p1 = Person("John", 36)
+# p1.func()
+
+
+# class Person:
+#     def __init__(mysillyobject, name, age):
+#         mysillyobject.name = name
+#         mysillyobject.age = age
+
+#     def func(abc):
+#         print("Hello my name is " +  abc.name)
+
+# p1 = Person("john", 36)
+# p1.age = 40
+# del p1.age
+# del p1
+# p1.func()
+
+
