@@ -994,3 +994,108 @@ this is a third line of comment
 
 # print(x)
 
+# import json
+
+# x = '{"name": "John", "age": 30, "city":"New York"}'
+# a =  '{ "name":"John", "age":30, "city":"New York"}'
+# y = json.loads(a)
+
+# print(y.keys())
+# print(y["name"])
+# print(y["age"])
+# print(y["city"])
+
+# a = {
+#     "name": "John",
+#     "age": 30,
+#     "city": "New York"
+# }
+
+# y = json.dumps(a)
+# print(y)
+
+# x = {
+#     "name": "John",
+#     "age": 30,
+#     "married": True,
+#     "divorced": False,
+#     "children": ("Ann", "Billy"),
+#     "pets": None,
+#     "cars": [
+#         {"model": "BMW 230", "mpg": 27.5},
+#         {"model": "Ford Edge", "mpg": 24.1}
+#     ]
+# }
+
+# print(json.dumps(x, indent=2, separators=(",","="), sort_keys=True))
+
+
+# learn RegEx(Regular Expression)
+
+# import re
+
+# txt = "The rain in Spain"
+# x = re.search("^The.*Spain$", txt)
+# x = re.findall("ai", txt)
+# x = re.findall("nitin",txt)
+# x = re.search("sfe", txt)
+
+# print("The first white-space character is located in position:", x.start())
+
+# x = re.split("\s", txt, 1)
+# x = re.sub("\s", "9", txt, 2)
+
+# x = re.search("ai", txt)
+
+# print(x)
+
+# import camelcase
+# c  = camelcase.CamelCase()
+# txt = "hello world"
+# print(c.hump(txt))
+
+# try:
+#     print(x)
+# except:
+#     print("An exception occurred")
+
+# try:
+#     print(x)
+# except NameError:
+#     print("Variable x is not defined")
+# except:
+#     print("Something else went wrong")
+
+# try:
+#     print(x)
+# except:
+#     print("Something went wrong")
+# # else:
+# #     print("Nothing went wrong")
+# finally:
+#     print("The 'try except' is finished")
+
+# try:
+#     f = open(demofile.txt)
+#     try:
+#         f.write("Lorum Ipsum")
+#     except:
+#         print("Something went wrong when writing to the file")
+#     finally:
+#         f.close()
+# except:
+#     print("Something went wrong when opening the file")
+
+# from logging import exception
+
+
+# x = -1
+
+# if x < 0:
+#     raise Exception("Sorry, no numbers below zero")
+
+# x = "hello"
+
+# if not type(x) is int:
+#     raise TypeError("Only integers are allowed")
+
