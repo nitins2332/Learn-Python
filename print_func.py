@@ -1099,3 +1099,67 @@ this is a third line of comment
 # if not type(x) is int:
 #     raise TypeError("Only integers are allowed")
 
+# username = input("Enter username: ")
+# print("Username is: " + username)
+
+
+# price = input("Enter a price : ")
+# itemno = input("Enter the item no. : ")
+# count = input("Number of total item: ")
+# txt = "The price is {0} dollars and item no : {1} the count is {2}"
+# print(txt.format(price, itemno, count))
+
+# age = 36
+# name = "Nitins"
+# txt = "His nama is {1}, {1} is {0} years old."
+# print(txt.format(age,name))
+
+# myorder = "I have a {carname}, it is a {model}."
+# print(myorder.format(carname = "Ford", model = "Mustang"))
+
+# myorder = "I have a {carname}, it is a {model}."
+# print(myorder.format(carname = "neno", model = "Mustang"))
+
+# from cgi import print_arguments
+
+
+# f = open("demofile.txt", "a")
+# f = open("demofile.txt", "rt")
+# print(f.readline())
+# for x in f:
+#     print(x)
+
+# print(f.read())
+# f.close()
+
+# f = open("demofile1.txt", "a")
+# f.write("Now the file has more content!")
+# f.close()
+
+# f = open("demofile1.txt", "r")
+# print(f.read())
+
+# f = open("myfile.txt", "x")
+
+# import os
+# os.remove("myfile.txt")
+# if os.path.exists("myfile.txt"):
+#     os.remove("myfile.txt")
+# else:
+#     print("The file does not exist")
+
+# os.rmdir("newfolder")
+
+
+# from ctypes.wintypes import PINT
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# xpoints = np.array([0, 6])
+# ypoints = np.array([0, 250])
+
+# plt.plot(xpoints, ypoints)
+# plt.show()
+
+# print(matplotlib.__version__)
+
