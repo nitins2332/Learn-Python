@@ -931,4 +931,66 @@ this is a third line of comment
 # print(harry.printdetails())
 
 
+# x = 300
+
+# def func():
+#     global x
+#     x = 200
+#     print(x)
+
+# func()
+
+# print(x)
+
+# Learn Modules
+
+# import mymodule as mx
+
+# mx.greeting("Nitin")
+
+# a = mx.person1["age"]
+# print(a)
+
+# import platform
+
+
+# y = platform.system_alias(platform.system,platform.release,platform.version)
+# x = dir(platform)
+# print(y)
+# print(x)
+
+# import mymodule
+
+# x = dir(mymodule)
+# y = mymodule.greeting("Nitins")
+# print(x)
+# print(y)
+
+# import datetime
+
+# x = datetime.datetime.now()
+# print(x.day)
+# print(x.strftime("%A"))
+
+# x = datetime.datetime(2022, 6,23)
+# print(x)
+
+# x = datetime.datetime(2018, 6, 1)
+
+# print(x.strftime("%j"))
+
+# x = min(23,45,1,34,55,3,10)
+# print(x)
+
+# y = abs(-7.34)
+# x  = pow(2,10)
+
+# print(x)
+
+# import math
+
+# x = math.sqrt(64)
+# x = math.pi
+
+# print(x)
 
